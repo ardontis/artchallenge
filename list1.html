@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    var age = 20;
+        
+    
+    function change_var (){
+            
+    age = age + 2 ;
+    document.getElementById("main").innerHTML = age;
+    }
+</script>
+<p>this is the numbe of prople that say hi: </p><p id="main">20</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+   
+    <body>
+        <form name="form1" method="" action="">
+            <select name="list1" size="4" multiple>
+                <option onclick="change_var()"> hi
+                <option> hello
+                <option> hallo
+            </select>
+        </form>    
+    </body>
+</html>
